@@ -1,0 +1,271 @@
+.body {
+    align-content: center;
+    width: 600px;
+}
+
+.blok {
+    padding: 3rem;
+    font-family: 'Roboto Flex', sans-serif;
+    box-shadow: 8px 8px #e3e3e3;
+}
+
+/*****************PRVNI BLOK********************/
+
+.prvni--blok {
+    background-color: darkcyan;
+    height: 70px;
+    border-radius: 5px;
+    width: 600px;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+}
+
+.prvni--blok__nadpis {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: azure;
+    margin-top: 20px;
+}
+
+/*****************DRUHY BLOK********************/
+
+.druhy--blok {
+    background-color: rgb(0, 196, 190);
+    height: 550px;
+    margin-top: -0.5rem;
+    margin-bottom:  -0.5rem;
+    width: 600px;
+}
+
+.druhy--blok__popis {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 12px;
+}
+
+.druhy--blok__popis--mesto {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 12px;
+}
+
+.druhy--blok__popis--historie {
+    font-style: italic;
+    text-shadow: 1px 1px 6px rgb(206, 202, 202)
+}
+
+.druhy--blok__popis--nadpisfirmy {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 11px;
+}
+
+.druhy--blok__popis--firmy {
+    display: flex;
+}
+
+.druhy--blok__popis--firmy img {
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.druhy--blok__popis--nadpisvyuziti {
+    font-weight: bold;
+    color: rgb(158, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 12px;
+}
+
+.druhy--blok__popis--vyuziti {
+    display: flex;
+}
+
+.druhy--blok__popis--vyuziti img {
+    width: 100px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+/*****************TRETI BLOK********************/
+
+.treti--blok {
+    background-color: rgb(1, 142, 137);
+    height: 550px;
+    margin-top: -0.5rem;
+    margin-bottom:  -0.5rem;
+    width: 600px;
+}
+
+.treti--blok__img--tem {
+    padding: 0px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+.treti--blok__roh #trojuhelnik {
+    margin-left: -30px;
+    margin-top: -48px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: rgb(0, 196, 190) transparent transparent transparent;
+ }
+
+ .treti--blok p {
+    font-weight: bolder;
+}
+
+.treti--blok__popis--nadpis {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.treti--blok__popis--priprava {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 10px;
+}
+
+.treti--blok__metody {
+    display: flex;
+}
+
+.treti--blok__metody--nadpisnegativ {
+    font-weight: bold;
+    color: rgb(66, 6, 6);
+    padding: 0px;
+    margin: 2px;
+    border: 0px;
+    font-size: 12px;
+}
+
+.treti--blok__metody img {
+    margin: -5px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+.treti--blok__metody p {
+    padding:0px;
+    margin: 0px;
+}
+
+.treti--blok__nadpis {
+    font-family: 'Bebas Neue';
+}
+
+/*****************CTVRTY BLOK********************/
+
+.ctvrty--blok {
+    background-color: rgb(0, 196, 190);
+    height: 550px;
+    margin-top: -0.5rem;
+    margin-bottom:  -0.5rem;
+    width: 600px;
+}
+
+.ctvrty--blok__roh #trojuhelnik {
+    margin-left: -30px;
+    margin-top: -48px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: rgb(1, 142, 137) transparent transparent transparent;
+}
+
+.ctvrty--blok__img--sem {
+    padding: 0px;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+.ctvrty--blok__popis--nadpis {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.ctvrty--blok__popis--priprava {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 10px;
+}
+
+
+/*****************PATY BLOK********************/
+
+.paty--blok {
+    border-radius: 0px 0px 5px 5px;
+    background-color: darkcyan;
+    width: 695px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+/*****************SESTY BLOK********************/
+
+.sesty--blok { 
+    background-image: url("mikro.png");
+    opacity: 0.5;
+    width: 655px;
+    border-radius: 0px 0px 5px 5px;
+    height: 100px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.sesty--blok__a {
+    color: black;
+    font-weight:bold;
+}
+
+.sesty--blok__p {
+    color: white;
+    text-align: right;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/************************************************/
+
+img {
+    width: 90px;
+    height:fit-content;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+p {
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
